@@ -1,15 +1,19 @@
 export const skills = [
   "Odoo Backend Development",
   "Python",
+  "PostgreSQL",
+  "Odoo Security & Access Rules",
   "OWL Framework",
   "JavaScript",
   "XML Views",
   "QWeb Reports",
   "REST API Integrations",
+  "API Security",
+  "Automated Testing",
   "JWT Authentication",
   "NestJS",
   "TypeScript",
-  "Bug Fixing",
+  "Debugging & Production Support",
 ];
 
 export const corporateProjects = [
@@ -17,7 +21,7 @@ export const corporateProjects = [
     title: "Attendance Integration with Odoo",
     type: "Confidential Corporate Project",
     summary:
-      "Built an Odoo integration for pulling employee attendance from an external API, including token configuration, API documentation, backend processing, and an OWL statistics dashboard.",
+      "Built an Odoo attendance integration with an external API, handling synchronization, authentication, validation, and reliable processing of attendance data.",
     highlights: [
       "Token generation module using Odoo config settings",
       "Employee attendance synchronization from external API",
@@ -32,7 +36,7 @@ export const corporateProjects = [
     title: "External Request System Integration",
     type: "Confidential Corporate Project",
     summary:
-      "Integrated an external website request system with Odoo, where requests were created outside Odoo and processed inside Odoo through secured backend workflows.",
+      "Developed a secured Odoo integration for exchanging business requests with an external system, including authentication, validation, error handling, and controlled data synchronization.",
     highlights: [
       "Requests created from website and sent to Odoo",
       "JWT-based security between systems",
@@ -47,7 +51,7 @@ export const corporateProjects = [
     title: "Awqaf UAE Hijri Calendar Integration",
     type: "Confidential Corporate Project",
     summary:
-      "Integrated Awqaf UAE APIs for Hijri calendar handling and created an OWL dashboard for managing Hijri calendar data and special date conversion cases.",
+      "Implemented Hijri calendar support within Odoo workflows, integrating date conversion and display requirements while preserving compatibility with existing business processes.",
     highlights: [
       "Awqaf UAE API integration",
       "OWL dashboard for Hijri calendar management",
@@ -61,7 +65,7 @@ export const corporateProjects = [
     title: "Enterprise OWL Dashboards & Printing Tools",
     type: "Confidential Corporate Projects",
     summary:
-      "Built multiple OWL-based platforms and dashboards for employees, managers, attendance, news, notifications, and reporting.",
+      "Built interactive OWL dashboards and printable business views for operational data, combining backend aggregation with responsive frontend components and reporting workflows.",
     highlights: [
       "More than 5 OWL-based custom platforms",
       "Privilege-driven views for users, managers, and admins",
@@ -76,7 +80,7 @@ export const corporateProjects = [
     title: "General Odoo Module Development, Maintenance & Problem Solving",
     type: "Corporate Odoo Experience",
     summary:
-      "Worked on building, customizing, maintaining, and troubleshooting Odoo modules across different business areas, with a strong focus on backend logic, business workflows, reports, and solving real production issues.",
+      "Developed and maintained custom Odoo modules, business workflows, reports, access controls, and integrations while debugging and resolving production issues across existing systems.",
     highlights: [
       "Customized and extended Accounting, HR, Projects, Tasks, Timesheets, Sales, Purchase, and E-commerce modules",
       "Built custom Odoo modules based on business requirements",
@@ -102,11 +106,34 @@ export const corporateProjects = [
 
 export const publicProjects = [
   {
+    title: "Odoo Whiteboard",
+    repo: "https://github.com/Gadero5565/odoo_whiteboard",
+    odooApp: "https://apps.odoo.com/apps/modules/19.0/odoo_whiteboard",
+    summary:
+      "Open-source multi-board whiteboard application built directly inside Odoo using OWL and Fabric.js. Supports drawing tools, diagrams, mind maps, templates, autosave, PNG export, responsive/RTL layouts, and secure per-user and multi-company board isolation. Available for Odoo 17, 18, and 19.",
+    tech: [
+      "Odoo 17/18/19",
+      "Python",
+      "OWL",
+      "JavaScript",
+      "Fabric.js",
+      "Security",
+      "Testing",
+    ],
+  },
+  {
     title: "Getmo Requests System",
     repo: "https://github.com/Gadero5565/getmo-requests-system",
     summary:
       "Odoo request management system based on dynamic request types, workflow handling, privilege-driven dashboards, and intelligent scheduling using a knapsack-greedy algorithm.",
     tech: ["Odoo", "Python", "OWL", "Algorithms", "Dashboards"],
+  },
+  {
+    title: "Full Auth NestJS App",
+    repo: "https://github.com/Gadero5565/full_auth_nest_js",
+    summary:
+      "Backend authentication application built with NestJS, TypeScript, and JWT to practice and demonstrate backend authentication flows outside Odoo.",
+    tech: ["NestJS", "TypeScript", "JWT", "Backend"],
   },
   {
     title: "Odoo OWL Crossword Game",
@@ -128,12 +155,5 @@ export const publicProjects = [
     summary:
       "Tic Tac Toe game built inside Odoo using OWL, with Python backend logic for storing scores and game results.",
     tech: ["Odoo", "OWL", "JavaScript", "Python"],
-  },
-  {
-    title: "Full Auth NestJS App",
-    repo: "https://github.com/Gadero5565/full_auth_nest_js",
-    summary:
-      "Backend authentication application built with NestJS, TypeScript, and JWT to practice and demonstrate backend authentication flows outside Odoo.",
-    tech: ["NestJS", "TypeScript", "JWT", "Backend"],
   },
 ];

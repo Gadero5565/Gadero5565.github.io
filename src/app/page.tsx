@@ -13,15 +13,15 @@ export default function Home() {
         </p>
 
         <h1 className="max-w-4xl text-4xl font-bold tracking-tight md:text-6xl">
-          Building reliable Odoo backend systems, REST API integrations, OWL
-          dashboards.
+          Building reliable Odoo systems, secure integrations, and OWL
+          applications.
         </h1>
 
         <p className="mt-6 max-w-3xl text-lg text-slate-300">
-          I specialize in backend workflows, API security,
-          business dashboards, reports, and integration-heavy enterprise
-          systems. I also work with NestJS, TypeScript, and JWT-based backend
-          applications.
+          I specialize in Odoo backend development, business workflows, API
+          integrations, security, reports, and OWL-based applications. I build
+          and maintain custom Odoo modules for real business requirements, and
+          also work with NestJS, TypeScript, and JWT-based backend systems.
         </p>
 
         <div className="mt-8 flex flex-wrap gap-3">
@@ -61,9 +61,10 @@ export default function Home() {
           Confidential Corporate Case Studies
         </h2>
         <p className="mt-3 max-w-3xl text-slate-400">
-          These projects were delivered under company contracts, so client
-          names, screenshots, URLs, and private implementation details are
-          intentionally not shared.
+          Selected enterprise Odoo projects completed in professional
+          environments. Due to company contracts and confidentiality
+          requirements, client names, screenshots, URLs, source code, and
+          private implementation details are not publicly shared.
         </p>
 
         <div className="mt-8 grid gap-6 md:grid-cols-2">
@@ -120,14 +121,73 @@ export default function Home() {
                 ))}
               </div>
 
-              <a
-                href={project.repo}
-                className="mt-5 inline-block text-sm font-semibold text-cyan-400"
-              >
-                View Repository →
-              </a>
+              <div className="mt-5 flex flex-wrap gap-4">
+                <a
+                  href={project.repo}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-sm font-semibold text-cyan-400 transition hover:text-cyan-300"
+                >
+                  GitHub Repository →
+                </a>
+
+                {"odooApp" in project && project.odooApp && (
+                  <a
+                    href={project.odooApp}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-sm font-semibold text-cyan-400 transition hover:text-cyan-300"
+                  >
+                    Odoo Apps →
+                  </a>
+                )}
+              </div>
             </article>
           ))}
+        </div>
+      </section>
+
+      <section className="mx-auto max-w-6xl px-6 py-16">
+        <div className="rounded-2xl border border-slate-800 bg-slate-900 p-8 md:p-10">
+          <p className="text-sm font-medium uppercase tracking-[0.25em] text-cyan-400">
+            Contact
+          </p>
+
+          <h2 className="mt-3 text-3xl font-bold">Let&apos;s Connect</h2>
+
+          <p className="mt-4 max-w-2xl text-slate-300">
+            I&apos;m interested in Odoo backend development, custom modules,
+            integrations, OWL applications, and backend engineering
+            opportunities. Feel free to connect with me or explore my
+            open-source work.
+          </p>
+
+          <div className="mt-7 flex flex-wrap gap-3">
+            <a
+              href="https://www.linkedin.com/in/gadeer-mahmoud-6447b7151"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="rounded-full bg-cyan-400 px-5 py-3 font-semibold text-slate-950 transition hover:bg-cyan-300"
+            >
+              LinkedIn
+            </a>
+
+            <a
+              href="https://github.com/Gadero5565"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="rounded-full border border-slate-700 px-5 py-3 font-semibold text-slate-100 transition hover:border-slate-500"
+            >
+              GitHub
+            </a>
+
+            <a
+              href="mailto:gadero5655@gmail.com"
+              className="rounded-full border border-slate-700 px-5 py-3 font-semibold text-slate-100 transition hover:border-slate-500"
+            >
+              Email Me
+            </a>
+          </div>
         </div>
       </section>
     </main>

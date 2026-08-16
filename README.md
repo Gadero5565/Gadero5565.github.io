@@ -1,36 +1,89 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Gadeer Mahmoud
 
-## Getting Started
+a Senior Odoo Backend Developer focused on building reliable Odoo systems, secure integrations, custom modules, and OWL applications.
 
-First, run the development server:
+## Live Portfolio
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+https://gadero5565.github.io/
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## About Me
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+I specialize in Odoo backend development, business workflows, API integrations, security, reports, and OWL-based applications.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+My work includes custom Odoo modules, enterprise integrations, secure APIs, dashboards, reporting workflows, automated testing, and production support.
 
-## Learn More
+I also work with NestJS, TypeScript, PostgreSQL, and JWT-based backend systems.
 
-To learn more about Next.js, take a look at the following resources:
+## Core Technologies
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+* Odoo
+* Python
+* PostgreSQL
+* OWL
+* JavaScript
+* XML / QWeb
+* REST APIs
+* Odoo Security & Access Rules
+* Automated Testing
+* NestJS
+* TypeScript
+* JWT Authentication
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Featured Open-Source Project
 
-## Deploy on Vercel
+### Odoo Whiteboard
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+A multi-board whiteboard application built directly inside Odoo using **OWL and Fabric.js**.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Key features include:
+
+* Multiple whiteboards
+* Drawing and diagram tools
+* Mind maps
+* Templates
+* Autosave
+* PNG export
+* Responsive layouts
+* RTL support
+* Per-user board isolation
+* Multi-company security
+* Automated backend regression tests
+
+Available for **Odoo 17, 18, and 19**.
+
+**GitHub:**
+https://github.com/Gadero5565/odoo_whiteboard
+
+**Odoo Apps:**
+https://apps.odoo.com/apps/modules/19.0/odoo_whiteboard
+
+## Other Projects
+
+The portfolio also includes:
+
+* Getmo Requests System
+* Full Auth NestJS Application
+* OWL Crossword
+* OWL Maze
+* Tic Tac Toe
+
+It also presents selected confidential corporate Odoo case studies while respecting client and company confidentiality requirements.
+
+## Portfolio Tech Stack
+
+This portfolio is built with:
+
+* Next.js
+* TypeScript
+* Tailwind CSS
+
+## Links
+
+**Portfolio:**
+https://gadero5565.github.io/
+
+**GitHub:**
+https://github.com/Gadero5565
+
+**LinkedIn:**
+https://www.linkedin.com/in/gadeer-mahmoud-6447b7151

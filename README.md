@@ -1,6 +1,6 @@
 # Gadeer Mahmoud
 
-a Senior Odoo Backend Developer focused on building reliable Odoo systems, secure integrations, custom modules, and OWL applications.
+I’m a Senior Odoo Backend Developer specializing in custom Odoo modules, business workflows, secure API integrations, OWL applications, and backend engineering.
 
 ## Live Portfolio
 

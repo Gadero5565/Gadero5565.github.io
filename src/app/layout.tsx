@@ -15,7 +15,7 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "Gadeer Mahmoud | Senior Odoo Backend Developer",
   description:
-    "Senior Odoo Backend Developer portfolio focused on Odoo modules, REST API integrations, OWL dashboards, reports, and NestJS backend projects.",
+    "Senior Odoo Backend Developer portfolio focused on custom Odoo modules, secure API integrations, business workflows, OWL applications, automated testing, and backend engineering.",
 };
 
 export default function RootLayout({

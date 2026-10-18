@@ -1,3 +1,5 @@
+import type { SkillCategory } from "@/types/portfolio";
+
 export const skills = [
   "Odoo Backend Development",
   "Python",
@@ -16,6 +18,8 @@ export const skills = [
   "Debugging & Production Support",
 ];
 
+// CONTENT LOCK: preserve these five case studies exactly as in the original.
+// In later phases, only their visual presentation may change.
 export const corporateProjects = [
   {
     title: "Attendance Integration with Odoo",
@@ -104,56 +108,46 @@ export const corporateProjects = [
   },
 ];
 
-export const publicProjects = [
+/** Future categorized skills presentation; the current `skills` display is unchanged. */
+export const skillCategories: SkillCategory[] = [
   {
-    title: "Odoo Whiteboard",
-    repo: "https://github.com/Gadero5565/odoo_whiteboard",
-    odooApp: "https://apps.odoo.com/apps/modules/19.0/odoo_whiteboard",
-    summary:
-      "Open-source multi-board whiteboard application built directly inside Odoo using OWL and Fabric.js. Supports drawing tools, diagrams, mind maps, templates, autosave, PNG export, responsive/RTL layouts, and secure per-user and multi-company board isolation. Available for Odoo 17, 18, and 19.",
-    tech: [
-      "Odoo 17/18/19",
-      "Python",
-      "OWL",
-      "JavaScript",
-      "Fabric.js",
-      "Security",
-      "Testing",
+    id: "odoo",
+    title: "Odoo Development",
+    skills: [
+      "Odoo Backend Development",
+      "Odoo Security & Access Rules",
+      "XML Views",
+      "QWeb Reports",
+      "Odoo Model Development",
     ],
   },
   {
-    title: "Getmo Requests System",
-    repo: "https://github.com/Gadero5565/getmo-requests-system",
-    summary:
-      "Odoo request management system based on dynamic request types, workflow handling, privilege-driven dashboards, and intelligent scheduling using a knapsack-greedy algorithm.",
-    tech: ["Odoo", "Python", "OWL", "Algorithms", "Dashboards"],
+    id: "backend",
+    title: "Backend Development",
+    skills: ["Python", "FastAPI", "NestJS", "TypeScript", "JWT Authentication"],
   },
   {
-    title: "Full Auth NestJS App",
-    repo: "https://github.com/Gadero5565/full_auth_nest_js",
-    summary:
-      "Backend authentication application built with NestJS, TypeScript, and JWT to practice and demonstrate backend authentication flows outside Odoo.",
-    tech: ["NestJS", "TypeScript", "JWT", "Backend"],
+    id: "frontend",
+    title: "Frontend and OWL",
+    skills: ["OWL Framework", "JavaScript", "React"],
   },
   {
-    title: "Odoo OWL Crossword Game",
-    repo: "https://github.com/Gadero5565/crossword_game",
-    summary:
-      "Crossword game built inside Odoo using the OWL framework, with Python backend logic for fetching and managing grid data.",
-    tech: ["Odoo", "OWL", "JavaScript", "Python"],
+    id: "integrations",
+    title: "APIs and Integrations",
+    skills: ["REST API Integrations", "API Security"],
   },
   {
-    title: "Odoo OWL Maze Game",
-    repo: "https://github.com/Gadero5565/maze_game",
-    summary:
-      "Interactive maze game built inside Odoo using OWL with gameplay, score tracking, and persistence. Built mainly to explore OWL capabilities inside Odoo.",
-    tech: ["Odoo", "OWL", "JavaScript", "SCSS"],
-  },
-  {
-    title: "Tic Tac Toe Game in Odoo OWL",
-    repo: "https://github.com/Gadero5565/tick_tack_toe_game",
-    summary:
-      "Tic Tac Toe game built inside Odoo using OWL, with Python backend logic for storing scores and game results.",
-    tech: ["Odoo", "OWL", "JavaScript", "Python"],
+    id: "tools",
+    title: "Databases, Testing and Tools",
+    skills: [
+      "PostgreSQL",
+      "Automated Testing",
+      "Debugging & Production Support",
+      "GitHub Actions",
+    ],
   },
 ];
+
+// Retain the existing page.tsx import path; public projects are now typed and
+// organized in a separate file without touching the homepage layout in Phase 2.
+export { publicProjects } from "./projects";
